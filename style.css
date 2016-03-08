@@ -1,0 +1,83 @@
+/*
+
+Theme Name: Arianna Blank Theme
+Theme URI: Arianna Delin Blank
+Author: Arianna Delin
+Description: Blank theme for WIE course
+Version: 0.1
+License: Open
+Text Domain: arianna_delin_blank_template
+
+*/
+
+@import url("css/normalize.css");
+@import url("css/skeleton.css");
+
+*{
+	color:#000000;
+	font-size:16px;
+	line-height: 1.5rem;
+}
+
+h1, h2, h3, h4, h5, h6{
+	color: black;
+}
+
+h2, h4, h6{
+	font-weight: 100;
+}
+
+h1{
+	font-size: 3.5rem;
+}
+
+h2{
+	font-size: 3.0rem;
+}
+
+h3{
+	font-size: 2.75rem;
+}
+
+h4{
+	font-size: 2.5rem;
+}
+
+h5{
+	font-size: 2.0rem;
+}
+
+h6{
+	font-size: 1.5rem;
+}
+
+/*--- Menu --- */
+
+.blank-menu-header ul {
+    margin: 0; 
+    padding: 0; 
+    list-style-type: none; 
+    list-style-image: none; 
+}
+
+.blank-menu-header li {
+    display: inline;
+}
+
+.blank-menu-header ul li a {
+    text-decoration:none;  
+    margin: 4px;
+    padding: 5px 0px 5px 40px; 
+    font-weight: 300;
+}
+
+.blank-menu-header ul li a:hover {
+    color: #cccccc;
+}
+
+
+
+
+
+
+
