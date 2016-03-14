@@ -2,7 +2,22 @@
 
 	<section class="row">
 		<div class="two columns">
-			&nbsp;
+			<?php
+				$mood = get_post_meta($post-->ID, 'mood', true);
+				if ($mood){
+					echo $mood;
+				} else { ?>
+					<br/>
+					<?php }
+			?>
+			<?php
+				$activity = get_post_meta($post-->ID, 'activity_while_writing', true);
+				if ($activity){
+					echo $activity;
+				} else { ?>
+					<br/>
+					<?php }
+			?>
 		</div>
 		<div class="eight columns">
 			<?php 
