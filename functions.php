@@ -47,3 +47,20 @@ add_theme_support('menus');
 
 /*--- Enable Post Thumbnails ---*/
 add_theme_support( 'post-thumbnails' ); 
+
+/* web dev custom taxonomy--*/
+
+function custom_taxonomy_wie_init() {
+    /*custom taxonmy*/
+        register_taxonomy(
+            'webdevelopment',
+            'post',
+            array(
+                'hierarchical' => true,
+                'label' => 'Web Development Types',
+                 'query_var' => true
+            )
+        );
+    }
+    add_action( 'init', 'custom_taxonomy_wie_init' );
+?>

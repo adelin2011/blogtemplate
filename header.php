@@ -2,17 +2,18 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title> <?php bloginfo('name');?> </title>
+	<title> <?php bloginfo('Web Interactivity and Engagement');?> </title>
 	<?php wp_head(); ?>
-	<link rel= "stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url'); ?>">
+	<link rel= "stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url');?>">
 
 </head>
 <body>
 <div class="container">
 	<header class="row">
 		<div class="nine columns"> 
-			<h1> <a href="<?php the_permalink();?>"<?php bloginfo('name');?> </a></h1>
-			<h2> <?php bloginfo('description'); ?> </h2>
+			<h1> 
+				<a href="http://aridelin.com/WIE/"> Web Interactivity and Engagement</a></h1>
+			<h2 class="subtitle"> Course Blog: Spring 2016 </h2>
 		</div> 
 		<div class="three columns">
         	<?php get_search_form(); ?>
