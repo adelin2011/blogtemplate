@@ -13,7 +13,6 @@
 		<div class="nine columns"> 
 			<h1 class="title"> 
 				<a href="http://aridelin.com/WIE/"> Web Interactivity and Engagement</a></h1>
-			<h2 class="subtitle"> Course Blog: Spring 2016 </h2>
 		</div> 
 		<div class="three columns">
         	<?php get_search_form(); ?>
