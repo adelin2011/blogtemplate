@@ -38,6 +38,15 @@ function blank_widgets_init() {
         'before_title' => '<h3>',
         'after_title' => '</h3>'                        
         ));
+      register_sidebar( array(
+        'name' => ('Front Page Sidebar'),
+        'id' => 'front-right',
+        'description' => 'Widget for front page sidebar', 
+        'before_widget' => '<div class="widget-sidebar widget-frontpage">', 
+        'after_widget' => '</div>',
+        'before_title' => '<h3>',
+        'after_title' => '</h3>'                        
+        ));
     }
 add_action('widgets_init', 'blank_widgets_init');
 

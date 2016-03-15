@@ -2,7 +2,7 @@
 
 <?php dynamic_sidebar('first-widget'); ?>
 
-<h3> Web Dev Categories </h3> 
+<h3> Past Posts </h3> 
 <ul>
 <?php 
 

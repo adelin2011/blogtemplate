@@ -25,7 +25,7 @@
 				?>
 		</div>
 		<div class="three columns">
-			<h3> Sidebar </h3>
+			<?php get_sidebar() ?>
 		</div>	
 	</section>	
 
