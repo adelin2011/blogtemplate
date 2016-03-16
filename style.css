@@ -1,12 +1,12 @@
 /*
 
-Theme Name: Arianna Blank Theme
-Theme URI: Arianna Delin Blank
+Theme Name: Arianna Blog Theme
+Theme URI: Arianna Delin Blog
 Author: Arianna Delin
-Description: Blank theme for WIE course
+Description: Blog theme for WIE course
 Version: 0.1
 License: Open
-Text Domain: arianna_delin_blank_template
+Text Domain: arianna_delin_blog_template
 
 */
 
@@ -75,6 +75,11 @@ h6{
     color: #cccccc;
 }
 
+
+/*--HEADER--*/
+/*--INDEX--*/
+/*--SIDEBAR--*/
+/*--FOOTER--*/
 
 
 
