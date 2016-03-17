@@ -12,7 +12,7 @@
 	<div class="container">
 		<header class="row">
 			<div class="five columns"> 
-				<h1 class="title"> 
+				<h1 class="site-title"> 
 					<a href="http://aridelin.com/WIE/"> Web Interactivity and Engagement</a></h1>
 			</div> 
 			<div class="two columns">
