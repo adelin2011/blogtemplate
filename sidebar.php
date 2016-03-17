@@ -9,8 +9,7 @@
 	$args = array(
 	    'orderby'           => 'name', 
 	    'hierarchical'      => true, 
-	  ); 
-
+	); 
 	$terms = get_terms('webdevelopment', $args);
 
 	if ( ! empty( $terms ) && ! is_wp_error( $terms ) ) {
