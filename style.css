@@ -14,41 +14,33 @@ Text Domain: arianna_delin_blog_template
 @import url("css/skeleton.css");
 
 *{
-	color:#000000;
 	font-size:16px;
 	line-height: 1.5rem;
 }
 
-h1, h2, h3, h4, h5, h6{
-	color: black;
+h1, h1 a{
+	font-size: 1rem;
+	text-decoration: none;
+	color: #DB1ED9;
 }
 
-h2, h4, h6{
-	font-weight: 100;
+h2, {
+	
 }
 
-h1{
-	font-size: 3.5rem;
-}
-
-h2{
-	font-size: 3.0rem;
-}
-
-h3{
-	font-size: 2.75rem;
+h3, h3 a{
 }
 
 h4{
-	font-size: 2.5rem;
+	
 }
 
 h5{
-	font-size: 2.0rem;
+	
 }
 
 h6{
-	font-size: 1.5rem;
+
 }
 
 /*--- Menu --- */
