@@ -40,7 +40,7 @@ function blank_widgets_init() {
         ));
       register_sidebar( array(
         'name' => ('Front Page Sidebar'),
-        'id' => 'front-right',
+        'id' => 'front-page',
         'description' => 'Widget for front page sidebar', 
         'before_widget' => '<div class="widget-sidebar widget-frontpage">', 
         'after_widget' => '</div>',
