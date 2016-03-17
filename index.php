@@ -25,7 +25,7 @@
 				?>
 		</div>
 		<div class="three columns">
-			<?php get_sidebar() ?>
+			<?php dynamic_sidebar('front-page') ?>
 		</div>	
 	</section>	
 

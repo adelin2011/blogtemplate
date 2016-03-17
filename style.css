@@ -45,6 +45,10 @@ h6{
 }
 
 /*--- Header ---*/
+.header-wrapper{
+	padding-top: 5px; 
+}
+
 h1 .site-title{
 	font-size: 3.5rem;
 	color: #DB1ED9;
@@ -80,7 +84,7 @@ h1 .site-title{
 }
 
 .navigation ul li a:hover {
-    color: #cccccc;
+    color: #0000FF;
 }
 
 
