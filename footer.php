@@ -1,13 +1,13 @@
 <!--BEGIN FOOTER-->	
 	<footer class="row">
 		<div class="four columns"> 
-			<?php dynamc_sidebar ('footer-left'); ?>
+			<?php dynamic_sidebar ('footer-left'); ?>
 		</div>
 		<div class="four columns"> 
-			<?php dynamc_sidebar ('footer-middle'); ?>
+			<?php dynamic_sidebar ('footer-middle'); ?>
 		</div>
 		<div class="four columns"> 
-			<?php dynamc_sidebar ('footer-right'); ?>
+			<?php dynamic_sidebar ('footer-right'); ?>
 		</div>
 	</footer>	
 
