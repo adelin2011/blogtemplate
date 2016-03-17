@@ -20,7 +20,13 @@
 	    	</div>
 		</header>
 
-		<!-- Add Menu Here -->
+		<nav class="navigation">
+		<ul>
+			<li class="current_page"> <a href="index.html"> Home </a> </li>
+			<li> <a href="posts.html"> Posts </a> </li>
+			<li> <a href="contact.html"> Contact </a> </li>
+		</ul>
+	</nav>
 		
 		<div class="row">
 	    	<div class="five columns">
