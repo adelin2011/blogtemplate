@@ -59,27 +59,25 @@ h1 .site-title{
 
 .navigation{
 	margin: auto;
-	margin-top: 10px;
+	margin-top: 50px;
+	text-align: center;
 	padding: 0;
-	text-align: center; 
 }
 
 .navigation ul{
-    margin: 0; 
-    padding: 0; 
-    list-style-type: none; 
-    list-style-image: none; 
+    list-style: none; 
+    margin: 0;
 }
 
 .navigation li {
     display: inline;
+      padding-right: 10px;
 }
 
 .navigation ul li a {
     text-decoration:none;  
     margin: 4px;
-    padding: 5px 0px 5px 40px; 
-    font-weight: 300;
+    font-weight: 500;
     color: #870582;
 }
 
