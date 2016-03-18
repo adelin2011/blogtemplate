@@ -1,6 +1,13 @@
 <?php get_header(); ?>
 
 	<section class="row">
+
+		<div class="container" id="image">
+			<figure="image">
+				<img src="img/beach.jpg" alt="image"/>
+			</figure> 
+		</div> 	
+
 		<div class="nine columns">
 			<?php 
 				if (have_posts()){

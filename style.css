@@ -25,25 +25,6 @@ h1, h1 a{
 	padding-top: 5px;
 }
 
-h2, h2 a {
-	
-}
-
-h3, h3 a{
-}
-
-h4{
-	
-}
-
-h5{
-	
-}
-
-h6{
-
-}
-
 /*--- Header ---*/
 .header-wrapper{
 	padding-top: 5px; 
@@ -85,8 +66,12 @@ h1 .site-title{
     color: #0000FF;
 }
 
-
 /*--INDEX--*/
+
+#image{
+	width: 100%;
+}
+
 /*--SIDEBAR--*/
 /*--FOOTER--*/
 
