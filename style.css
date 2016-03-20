@@ -95,6 +95,15 @@ a{
 /*--SIDEBAR--*/
 /*--FOOTER--*/
 
+.footer-wrapper{
+	padding-top: 5px; 
+	background-color: #9ab2cc;
+}
+
+.four-columns{
+	text-align: right;
+}
+
 
 
 
