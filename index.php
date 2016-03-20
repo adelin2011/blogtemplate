@@ -4,7 +4,7 @@
 
 		<div class="container" id="image">
 			<figure="image">
-				<img src="img/beach.jpg" alt="image"/>
+				<img src="img/photo1.jpg" alt="image"/>
 			</figure> 
 		</div> 	
 
