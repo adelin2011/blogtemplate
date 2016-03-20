@@ -84,7 +84,13 @@ p{
 	line-height: 1.5rem;
     color: #000000;
     font-family: Cambria;
-    
+}
+
+a{
+	color: #0617f8;
+	font-family: Cambria;
+	margin-bottom: 10px; 
+	padding-top: -5px; 
 }
 /*--SIDEBAR--*/
 /*--FOOTER--*/
