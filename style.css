@@ -25,13 +25,6 @@ h1, h1 a{
 	padding-top: 5px;
 }
 
-h3, h3 a{
-	font-size: 2rem;
-	color: #000000;
-	line-height: 1.5rem;
-	font-family: Avenir Next Condensed;
-}
-
 /*--- Header ---*/
 .header-wrapper{
 	padding-top: 5px; 
@@ -79,6 +72,20 @@ h1 .site-title{
 	width: 100%;
 }
 
+h3, h3 a{
+	font-size: 2rem;
+	color: #000000;
+	line-height: 1.5rem;
+	font-family: Avenir Next Condensed;
+}
+
+p{
+	margin-bottom: 2.5rem;
+	line-height: 1.5rem;
+    color: #000000;
+    font-family: Cambria;
+    
+}
 /*--SIDEBAR--*/
 /*--FOOTER--*/
 
