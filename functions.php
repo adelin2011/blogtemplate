@@ -110,4 +110,3 @@ add_action( 'init', 'custom_taxonomy_wie_init' );
         }
         add_action( 'init', 'custom_web_resources' );
 ?>
-
