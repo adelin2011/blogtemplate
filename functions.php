@@ -109,4 +109,17 @@ add_action( 'init', 'custom_taxonomy_wie_init' );
         register_post_type( 'resources', $args ); 
         }
         add_action( 'init', 'custom_web_resources' );
+
+/*------- Enqueue Files------*/
+function enqueue_unslider(){
+    wp_enqueue_scripts()
+        'unslider',
+        get_template_directory_uri() . 'scripts/unslider.js'
+        array('jquery').
+        '',
+        true
+        )
+}
+add_action('wp_enqueue_scripts', 'enqueue_unslider')
+
 ?>
