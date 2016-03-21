@@ -36,6 +36,14 @@ h1 .site-title{
 	padding-top: 5px; 
 }
 
+/*--- Search Form ---*/
+.wie-search-form{
+	position: absolute;
+    left: -999em;
+    width: 1em;
+    overflow: hidden;
+}
+
 /*--- Menu --- */
 
 .navigation{
