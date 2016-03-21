@@ -2,8 +2,8 @@
 
 	<section class="row">
 
-		<div class="container" id="image">
-			<figure="image">
+		<div class="container">
+			<figure="image" id="image">
 				<img src="img/photo1.jpg" alt="image"/>
 			</figure> 
 		</div> 	
