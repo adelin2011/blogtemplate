@@ -114,7 +114,7 @@ add_action( 'init', 'custom_taxonomy_wie_init' );
 function enqueue_unslider(){
     wp_enqueue_scripts()
         'unslider',
-        get_template_directory_uri() . 'scripts/unslider.js'
+        get_template_directory_uri() . '/scripts/unslider.js'
         array('jquery').
         '',
         true
