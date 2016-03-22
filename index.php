@@ -1,8 +1,8 @@
 <?php get_header(); ?>
 	<div class="row">
 		<div class="twelve columns">
-			<figure="image" id="image">
-				<img src="img/photo1.jpg" alt="image"/>
+			<figure= id="image">
+				<img src="img/photo1.jpg" alt="image">
 			</figure>
 		</div>
 	</div>
@@ -31,7 +31,7 @@
 				} // end if
 				?>
 			</div>
-			<div class="three columns">
+			<div class="three columns" id="sidebar">
 				<?php dynamic_sidebar('front-page'); ?>
 			</div>
 		</section>

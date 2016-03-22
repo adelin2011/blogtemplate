@@ -139,6 +139,11 @@ a{
 	padding-top: -5px; 
 }
 /*--SIDEBAR--*/
+#sidebar{
+	background-color: #f886f4;
+	-webkit-border-radius: 3px 3px 3px 3px;
+	border-radius: 3px 3px 3px 3px;
+}
 /*--FOOTER--*/
 
 .footer-wrapper{
