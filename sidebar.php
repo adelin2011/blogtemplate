@@ -5,12 +5,12 @@
 <div class="row">
 		<div class="two columns">
 			<figure= id="Profile">
-				<img src="img/me.png" width="50" alt="Arianna">
+				<img src="/img/me.png" width="50" alt="Arianna">
 			</figure>
 		</div>
 </div>
 
-<h3> Past Posts </h3> 
+<h4> Past Posts </h4> 
 <ul>
 <?php 
 

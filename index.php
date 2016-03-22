@@ -1,11 +1,13 @@
 <?php get_header(); ?>
-	<div class="row">
-		<div class="twelve columns">
-			<figure= id="image">
-				<img src="img/photo1.jpg" alt="image">
-			</figure>
-		</div>
+<div class="row" id="slider">
+	<div class="twelve columns">
+		<ul class="bxslider">
+			<li><img src="/img/photo1.jpg" /></li>
+			<li><img src="/img/photo2.jpg" /></li>
+			<li><img src="/img/photo3.jpg" /></li>
+		</ul>
 	</div>
+</div>
 
 <section class="row">
 			<div class="nine columns white-bg">
@@ -35,5 +37,12 @@
 				<?php dynamic_sidebar('front-page'); ?>
 			</div>
 		</section>
+
+<!-- jQuery library (served from Google) -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<!-- bxSlider Javascript file -->
+<script src="/js/jquery.bxslider.min.js"></script>
+<!-- bxSlider CSS file -->
+<link href="/lib/jquery.bxslider.css" rel="stylesheet" />
 
 <?php get_footer(); ?>
