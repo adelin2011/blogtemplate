@@ -37,18 +37,19 @@ h1 .site-title{
 }
 
 /*--- Search Form ---*/
-.wie-search-form{
-	position: absolute;
+.wie-search-form .screen-reader-text {
+    position: absolute;
     left: -999em;
     width: 1em;
     overflow: hidden;
 }
 
-/*--- Search Bar CSS ---*/
 .row-search-form-row{
-	margin-top: 40px;
-	text-align: right;
+	margin-top: 50px;
 }
+
+/*--- Search Bar CSS ---*/
+
 .search-bar-icon { 
     border: none; 
     color: #666; 
