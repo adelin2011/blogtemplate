@@ -35,11 +35,9 @@
 			</div>
 
 			<div class="three columns" id="sidebar">
-
-				<figure= id="Profile">
+				<figure= id="profile">
 					<img src="img/me.png" width="50" alt="Arianna">
 				</figure>
-		
 				<?php dynamic_sidebar('front-page'); ?>
 			</div>
 		</section>

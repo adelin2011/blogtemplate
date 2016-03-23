@@ -9,7 +9,7 @@
 			<?php dynamic_sidebar ('footer-middle'); ?>
 		</div> -->
 
-		<div class="four columns"> 
+		<div class="twelve columns" id="footer"> 
 			<?php dynamic_sidebar ('footer-right'); ?>
 		</div>
 	</footer>	
