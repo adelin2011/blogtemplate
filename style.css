@@ -27,13 +27,13 @@ h1, h1 a{
 
 /*--- Header ---*/
 .header-wrapper{
-	padding-top: 5px; 
+	padding-top: 5px;
 }
 
 h1 .site-title{
 	font-size: 3.5rem;
 	color: #DB1ED9;
-	padding-top: 5px; 
+	padding-top: 5px;
 }
 
 /*--- Search Form ---*/
@@ -49,12 +49,11 @@ h1 .site-title{
 }
 
 /*--- Search Bar CSS ---*/
-
-.search-bar-icon { 
-    border: none; 
-    color: #666; 
+.search-bar-icon {
+    border: none;
+    color: #666;
     text-align: center;
-    padding: 5px; 
+    padding: 5px;
     background-color: #fff;
     margin: 0;
     min-height: 45px;
@@ -63,11 +62,11 @@ h1 .site-title{
     border-right: 1px solid #666;
 }
 input[type="search"] {
-    border: none; 
+    border: none;
     border-top: 1px solid #666;
     border-bottom: 1px solid #666;
     border-left: 1px solid #666;
-    min-height: 45px; 
+    min-height: 45px;
     font-size: 1.2rem;
     padding: 0;
     width: 100%;
@@ -77,7 +76,6 @@ input[type="search"] {
 }
 
 /*--- Menu --- */
-
 .navigation{
 	margin: auto;
 	margin-top: 50px;
@@ -86,7 +84,7 @@ input[type="search"] {
 }
 
 .navigation ul{
-    list-style: none; 
+    list-style: none;
     margin: 0;
 }
 
@@ -96,7 +94,7 @@ input[type="search"] {
 }
 
 .navigation ul li a {
-    text-decoration:none;  
+    text-decoration:none;
     margin: 4px;
     font-weight: 500;
     color: #870582;
@@ -107,7 +105,6 @@ input[type="search"] {
 }
 
 /*--INDEX--*/
-
 #image{
 	width: 100%;
 	min-height: 100%;
@@ -123,7 +120,7 @@ h3, h3 a{
 	color: #000000;
 	line-height: 1.5rem;
 	font-family: 'Avenir Next Condensed';
-	padding-top: 20px; 
+	padding-top: 20px;
 }
 
 h4{
@@ -144,15 +141,16 @@ p{
 a{
 	color: #0617f8;
 	font-family: 'Cambria';
-	margin-bottom: 10px; 
-	padding-top: -5px; 
-	padding-bottom: 20px; 
+	margin-bottom: 10px;
+	padding-top: -5px;
+	padding-bottom: 20px;
 }
 
 #profile{
 	background-color: none;
-	padding: 10px 10px 100px 10px;  
+	padding: 10px 10px 100px 10px;
 }
+
 /*--SIDEBAR--*/
 #sidebar{
 	background-color: #f886f4;
@@ -160,17 +158,14 @@ a{
 	border-radius: 10px 10px 10px 10px;
 	padding: 10px 10px 10px 10px;
 }
+
 /*--FOOTER--*/
 #footer{
-	padding-top: 10px; 
+	padding-top: 10px;
 	background-color: #9ab2cc;
 	text-align: right;
-	padding-right: 100px; 
+	padding-right: 100px;
 }
-
-
-
-
 
 
 
