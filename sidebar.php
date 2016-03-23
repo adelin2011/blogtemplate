@@ -2,14 +2,6 @@
 
 <?php dynamic_sidebar('first-widget'); ?>
 
-<div class="row">
-		<div class="two columns">
-			<figure= id="Profile">
-				<img src="/img/me.png" width="50" alt="Arianna">
-			</figure>
-		</div>
-</div>
-
 <h4> Past Posts </h4> 
 <ul>
 <?php 

@@ -2,9 +2,9 @@
 <div class="row" id="slider">
 	<div class="twelve columns">
 		<ul class="bxslider">
-			<li><img src="/img/photo1.jpg" /></li>
-			<li><img src="/img/photo2.jpg" /></li>
-			<li><img src="/img/photo3.jpg" /></li>
+			<li><img src="img/photo1.jpg" /></li>
+			<li><img src="img/photo2.jpg" /></li>
+			<li><img src="img/photo3.jpg" /></li>
 		</ul>
 	</div>
 </div>
@@ -33,7 +33,13 @@
 				} // end if
 				?>
 			</div>
+
 			<div class="three columns" id="sidebar">
+
+				<figure= id="Profile">
+					<img src="img/me.png" width="50" alt="Arianna">
+				</figure>
+		
 				<?php dynamic_sidebar('front-page'); ?>
 			</div>
 		</section>
