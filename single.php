@@ -25,7 +25,7 @@
 				while (have_posts()){
 					the_post();?>
 					<h3> <?php the_title (); ?></h3>
-					<?php the_date("Y-m-d.", "<h4>", "</h4>"):?>
+					<?php the_date("Y-m-d", "<h4>", "</h4>"):?>
 					<?php if (has_post_thumbnail ()) {
 						?> 					
 						<?php the_post_thumbnail('large'); 
