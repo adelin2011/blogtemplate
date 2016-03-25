@@ -153,6 +153,10 @@ a{
 	padding: 10px 10px 100px 10px;
 }
 
+.nine-columns{
+	padding-bottom: 40px; 
+}
+
 /*--SIDEBAR--*/
 #sidebar{
 	background-color: #f886f4;

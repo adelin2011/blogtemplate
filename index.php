@@ -22,7 +22,7 @@
 								<?php if ( has_post_thumbnail() ) { the_post_thumbnail('thumbnail');} ?>
 							</div>
 						</div>
-						<div class="nine columns">
+						<div class="nine-columns">
 							<h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
 							<?php the_excerpt();?>
 							<a href="<?php the_permalink(); ?>">Read More...</a>
