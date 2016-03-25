@@ -157,6 +157,10 @@ a{
 	padding-bottom: 40px; 
 }
 
+.nine-columns, h3 a{
+	text-align: left:;
+}
+
 /*--SIDEBAR--*/
 #sidebar{
 	background-color: #f886f4;

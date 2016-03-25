@@ -18,9 +18,9 @@
 				<div class="four columns">
 					<nav class="navigation">
 						<ul>
-							<li class="current_page"> <a href="index.html"> Home </a> </li>
-							<li> <a href="posts.html"> Posts </a> </li>
-							<li> <a href="contact.html"> Contact </a> </li>
+							<li class="current_page"> <a href="index.html"> HOME </a> </li>
+							<li> <a href="posts.html"> POSTS </a> </li>
+							<li> <a href="contact.html"> CONTACT </a> </li>
 						</ul>
 					</nav>
 				</div>	
