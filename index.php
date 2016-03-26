@@ -2,9 +2,9 @@
 <div class="row" id="slider">
 	<div class="twelve columns">
 		<ul class="bxslider">
-			<li><img src="img/photo1.jpg" /></li>
-			<li><img src="img/photo2.jpg" /></li>
-			<li><img src="img/photo3.jpg" /></li>
+			<li><img src="/img/photo1.jpg" /></li>
+			<li><img src="/img/photo2.jpg" /></li>
+			<li><img src="/img/photo3.jpg" /></li>
 		</ul>
 	</div>
 </div>
@@ -34,10 +34,11 @@
 				?>
 			</div>
 
-			<div class="three columns" id="sidebar">
 				<figure= id="profile">
-					<img src="img/me.png" width="50" alt="Arianna">
+					<img src="/img/me.png" width="50" alt="Arianna">
 				</figure>
+				
+			<div class="three columns" id="sidebar">
 				<?php dynamic_sidebar('front-page'); ?>
 			</div>
 		</section>
@@ -47,6 +48,6 @@
 <!-- bxSlider Javascript file -->
 <script src="/js/jquery.bxslider.min.js"></script>
 <!-- bxSlider CSS file -->
-<link href="/lib/jquery.bxslider.css" rel="stylesheet" />
+<link href="/css/jquery.bxslider.css" rel="stylesheet" />
 
 <?php get_footer(); ?>
