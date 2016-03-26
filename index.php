@@ -1,10 +1,10 @@
 <?php get_header(); ?>
 <div class="row" id="slider">
 	<div class="twelve columns">
-		<ul class="bxslider">
-			<li><img src="/img/photo1.jpg" /></li>
-			<li><img src="/img/photo2.jpg" /></li>
-			<li><img src="/img/photo3.jpg" /></li>
+		<ul class="bxslider" width="50%" height="50%">
+			<img src="<?php echo get_template_directory_uri() . '/img/photo1.jpg'; ?>">
+			<img src="<?php echo get_template_directory_uri() . '/img/photo2.jpg'; ?>">
+			<img src="<?php echo get_template_directory_uri() . '/img/photo3.jpg'; ?>">
 		</ul>
 	</div>
 </div>
@@ -35,9 +35,9 @@
 			</div>
 
 				<figure= id="profile">
-					<img src="/img/me.png" width="50" alt="Arianna">
+					<img src="<?php echo get_template_directory_uri() . '/img/me.png'; ?>">
 				</figure>
-				
+
 			<div class="three columns" id="sidebar">
 				<?php dynamic_sidebar('front-page'); ?>
 			</div>
