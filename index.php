@@ -1,10 +1,8 @@
 <?php get_header(); ?>
 <div class="row" id="slider">
 	<div class="twelve columns">
-		<ul class="bxslider" width="50%" height="50%">
-			<img src="<?php echo get_template_directory_uri() . '/img/photo1.jpg'; ?>">
-			<img src="<?php echo get_template_directory_uri() . '/img/photo2.jpg'; ?>">
-			<img src="<?php echo get_template_directory_uri() . '/img/photo3.jpg'; ?>">
+		<ul class="bxslider">
+			<img src="<?php echo get_template_directory_uri() . '/img/photo1.jpg'; ?>" width="60%" height="50%">
 		</ul>
 	</div>
 </div>
