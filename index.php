@@ -2,7 +2,7 @@
 <div class="row" id="slider">
 	<div class="twelve columns">
 		<ul class="bxslider">
-			<img src="<?php echo get_template_directory_uri() . '/img/photo1.jpg'; ?>" width="100%" height="50%">
+			<img src="<?php echo get_template_directory_uri() . '/img/photo1.jpg'; ?>" width="80%" height="50%">
 		</ul>
 	</div>
 </div>
