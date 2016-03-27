@@ -32,7 +32,7 @@ h1, h1 a{
 }
 
 h1 .site-title{
-	font-size: 3.5rem;
+	font-size: 4rem;
 	color: #DB1ED9;
 	padding-top: 5px;
 }
@@ -91,7 +91,7 @@ input[type="search"] {
 
 .navigation li {
     display: inline;
-      padding-right: 10px;
+    padding-right: 10px;
 }
 
 .navigation ul li a {
@@ -99,6 +99,7 @@ input[type="search"] {
     margin: 4px;
     font-weight: 500;
     color: #870582;
+    font-size: 2rem; 
 }
 
 .navigation ul li a:hover {
