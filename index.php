@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-<div class="row" id="slider">
+<div class="row">
 	<div class="twelve columns">
 		<ul class="bxslider">
 			<img src="<?php echo get_template_directory_uri() . '/img/photo1.jpg'; ?>" width="100%" height="60%">
