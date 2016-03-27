@@ -3,6 +3,8 @@
 	<div class="twelve columns">
 		<ul class="bxslider">
 			<img src="<?php echo get_template_directory_uri() . '/img/photo1.jpg'; ?>" width="100%" height="60%">
+			<img src="<?php echo get_template_directory_uri() . '/img/photo2.jpg'; ?>" width="100%" height="60%">
+			<img src="<?php echo get_template_directory_uri() . '/img/photo3.jpg'; ?>" width="100%" height="60%">
 		</ul>
 	</div>
 </div>
